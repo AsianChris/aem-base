@@ -1,6 +1,6 @@
 # DOCKER-VERSION 1.0.1
-FROM ariya/centos6-oracle-jre7
-MAINTAINER ggotti
+FROM asianchris/java-8
+MAINTAINER asianchris
 
 #Update and install wget
 RUN yum -y update; yum clean all
